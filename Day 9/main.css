@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navigation-bar{
+    color: black;
+    left: 80%;
+    top: 1px;
+    position: relative;
+    font-size: 15px;
+}
+.navigation-bar-items{
+    display: flex;
+    gap: 15px;
+}

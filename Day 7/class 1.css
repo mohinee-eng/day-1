@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    background-color: black;
+    padding: 40px 80px;
+}
+body{
+    font-family: monospace;
+}
+.logo{
+    color: white;
+}
+
+.navigation-bar{
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    color: brown;
+    display: inline;
+
+}
+.hero-section{
+    color: blue;
+ padding-top: 30px;
+ font-size: 7px;
+}
+.div{
+    display: inline;
+}
+.navigation-bar-items{
+  display: flex;
+  gap: 10px;
+}
+.about-section{
+    background: rgb(197, 189, 189);
+    height: 100vh ;
+    padding: 50px 70px;
+}
+
+.sub-containers{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 13px;
+
+}
+.container{
+    display: flex;
+    gap: 40px;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-items: stretch;
+
+
+}

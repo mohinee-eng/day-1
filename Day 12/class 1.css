@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.paragraph{
+    width: 800px;
+ margin-top: 300px;
+ margin-left: 80px;
+}
+.paragraph::before{
+    content:'note:';
+    color: brown;
+}
+.paragraph::after{
+    content: 'end';
+    color: blueviolet;
+}
+.transform{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-left: 300px;
+    margin-top: 80px;
+    transition: transform 2s,background 3s;
+}
+.transform:hover{
+    transform: scale(1.2);
+    background: red;
+}
+.img{
+    float: right;
+}
+.flower-info{
+    font-size: 35px;
+position: absolute;
+top: 900px;
+left: 50px;
+}
